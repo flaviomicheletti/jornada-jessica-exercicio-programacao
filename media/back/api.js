@@ -1,12 +1,12 @@
-function media(nota1, nota2){
-     valor = (nota1+nota2)/2
-    if (valor>=50){
+function media(nota1, nota2) {
+    valor = (nota1 + nota2) / 2
+    if (valor >= 50) {
         return true
-    }else{
+    } else {
         return false
     }
 }
 
-module.exports = {media}
+module.exports = { media }
 
 //console.log(media())
